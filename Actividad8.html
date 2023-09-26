@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--Este meta es una descripción del HTML-->
+    <meta name="description" content="Actividades de Repaso de HTML5">
+    <!--Este meta lleva el contenido del HTML con palabras clave-->
+    <meta name="keywords" content="HTML, CSS">
+    <!--Este meta tiene el autor de este HTML-->
+    <meta name="author" content="Isaac González Mota">
+    <title>Ejercicio Tabla 4</title>
+</head>
+<body>
+<!--contiene la cabecera de la pagina-->
+<header>
+    <h1 align="center">Ejercicio 4</h1>
+</header>
+<!--cuerpo de la pagina-->
+<main>
+    <section>
+        <label for="rango">Rango:</label>
+        <input id="rango" name="rangeInput" type="range" min="0" max="100" step="1" ><br><br><br>
+        <label for="fecha">Fecha:</label>
+        <input id="fecha" name="fecha" type="date"><br><br><br>
+        <label for="numero">Numero:</label>
+        <input id="numero" name="numero" type="number" min="0" max="100" step="1" ><br><br><br>
+        <label for="tiempo">Tiempo:</label>
+        <input id="tiempo" name="tiempo" type="time"><br><br><br>
+        <label for="dia">Elige tu día de la semana:</label>
+        <input list="dias" name="dia" id="dia">
+            <datalist id="dias">
+                <option value="Lunes">
+                <option value="Martes">
+                <option value="Miércoles">
+                <option value="Jueves">
+                <option value="Viernes">
+                <option value="Sábado">
+                <option value="Domingo">
+            </datalist>
+    </section>
+</main>
+</body> 
